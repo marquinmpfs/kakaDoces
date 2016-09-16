@@ -1,0 +1,82 @@
+body{
+  background: #F2F2DB; /*Cor de fundo*/
+  color: #FFF; /*Cores de textos*/
+  font-family: 'Quando', serif;
+  font-size: 20px;
+  /*Reset no body*/
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+#img{
+    height: 70px;
+    background-repeat: repeat;
+}
+
+/* =============== MENU ==========================*/
+
+#menu{
+  height: 45px;
+  background: #F4993E;
+  height: 70px;
+  width: 100%;
+  font-size: 22px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+
+#menu a{
+  display: block;
+  -webkit-box-flex: 1;
+  background: #F4993E;
+  color: #ffffff;
+  padding: 16px;
+  text-align: center;
+}
+
+#menu a:hover{
+  background: #F4BC33;
+  color: #E05A47;
+  font-weight: bold;
+  box-shadow: 0 0 50px 0 #E05A47;
+  border-color: #E05A47;
+  transition: all 1s fade-in;
+}
+
+/* =============== FIM MENU ==========================*/
+
+
+/* =============== FLEX LINHAS ==========================*/
+#wrapper,
+#nav{
+  display: flex;
+  flex-direction: row;
+}
+/* =============== FIM FLEX LINHAS ==========================*/
+
+
+ /* =============== FILHOS FLEX FLEXÍVEIS ==========================*/
+.content > *,
+#wrapper > *,
+#nav{
+  flex: 1 1 auto;
+}
+
+/* =============== FIM FILHOS FLEX FLEXÍVEIS ==========================*/
+
+
+/* =============== CONTENT ==========================*/
+.content{
+  padding: 10px; /*Espaçamento da pagina em relação ao body*/
+  margin: auto; /*Centralizando a pagina*/
+}
+
+.content > *{
+  margin-bottom: 10px;
+}
+
+/* ===============  FIM CONTENT ==========================*/
