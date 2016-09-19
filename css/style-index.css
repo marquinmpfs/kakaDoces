@@ -18,9 +18,7 @@ a{
 }
 
 /* =============== MENU ==========================*/
-
 #menu{
-  height: 45px;
   background: #F4993E;
   height: 70px;
   width: 100%;
@@ -34,7 +32,7 @@ a{
   -webkit-box-flex: 1;
   background: #F4993E;
   color: #ffffff;
-  padding: 16px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -46,9 +44,7 @@ a{
   border-color: #E05A47;
   transition: all 1s fade-in;
 }
-
 /* =============== FIM MENU ==========================*/
-
 
 /* =============== FLEX LINHAS ==========================*/
 #wrapper,
@@ -58,14 +54,12 @@ a{
 }
 /* =============== FIM FLEX LINHAS ==========================*/
 
-
  /* =============== FILHOS FLEX FLEXÍVEIS ==========================*/
 .content > *,
 #wrapper > *,
 #nav{
   flex: 1 1 auto;
 }
-
 /* =============== FIM FILHOS FLEX FLEXÍVEIS ==========================*/
 
 
@@ -80,3 +74,19 @@ a{
 }
 
 /* ===============  FIM CONTENT ==========================*/
+
+/* =============== MAIN ==========================*/
+#main{
+  min-height: 770px;
+  color: #E05A47;
+  background: #F4993E;
+}
+
+/* =============== FIM MAIN ==========================*/
+
+/* =============== FOOTER ==========================*/
+#footer{
+  background: #F4993E;
+  color: #E05A47;
+}
+/* =============== FIM FOOTER ==========================*/
