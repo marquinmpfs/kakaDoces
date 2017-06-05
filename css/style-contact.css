@@ -17,7 +17,7 @@ a{
 }
 /* =============== MENU ==========================*/
 
-#menu{
+.menu{
   background: #F4993E;
   height: 70px;
   width: 100%;
@@ -26,7 +26,7 @@ a{
   -webkit-box-orient: horizontal;
 }
 
-#menu a{
+.menu a{
   display: block;
   -webkit-box-flex: 1;
   background: #F4993E;
@@ -35,14 +35,7 @@ a{
   text-align: center;
 }
 
-#menu a:hover{
-  background: #F4BC33;
-  color: #E05A47;
-  font-weight: bold;
-  box-shadow: 0 0 50px 0 #E05A47;
-  border-color: #E05A47;
-  transition: all 1s fade-in;
-}
+
 
 /* =============== FIM MENU ==========================*/
 
@@ -79,13 +72,13 @@ a{
 /* ===============  FIM CONTENT ==========================*/
 
 /* =============== MAIN ==========================*/
-#main{
+.main{
   min-height: 730px;
   color: #E05A47;
   background: #F4993E;
 }
 
-#main .contact{
+.main .contact{
   color: #FFF;
 }
 

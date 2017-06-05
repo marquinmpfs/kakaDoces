@@ -1,29 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <title>Kaká Doces - Adoce a sua vida</title>
     <link href="https://fonts.googleapis.com/css?family=Quando" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/style-index.css" media="screen"/>
+    <link rel="stylesheet" href="css/index.css" media="screen"/>
   </head>
   <body>
-    <div class="content">
-      <nav id="menu">
-        <img id="img" src="images/img_top_menu.png" alt="Kaká Doces"/>
-        <a href="index.html">Inicío</a>
-        <a href="#">Sobre nós</a>
-        <a href="#">Tipos de doces</a>
-        <a href="#">Faça a sua encomenda</a>
-        <a href="contatos.html">Contatos</a>
-      </nav>
-      <main id="main">
+    <div class="wrapper">
+      <div class="kd-logo">
+        <img id="img" src="images/logo.jpg" alt="Kaká Doces" width="200px;" />
+        <nav class="menu">        
+          <a href="index.html">Inicío</a>
+          <a href="#">Sobre nós</a>
+          <a href="#">Cardápios e sabores</a>
+          <a href="#">Valores/Orçamentos</a>
+          <a href="#">Como encomendar?</a>
+        </nav>
+        <img class="tab-left" src="images/aba.png" alt="Aba Left" width="50px;"> 
+        <img class="tab-right" src="images/aba.png" alt="Aba Right" width="50px;"> 
+      </div>
+      <main>
+        <div class="kd-container">
+          <div class="kd-container-center">
+            <p>Faça aqui sua encomenda de trufas caseiras, bolos no pote, brigadeiros/beijinhos, tudo que você precisa para adocicar o seu evento.</p>
+          </div>
 
-        TEXTO
-        
+          <div class="kd-container-images">
+            <div class="gallery">
+              <a href="images/trufa.jpg">
+                <img src="images/trufa.jpg" alt="Trolltunga Norway" width="300" height="200">
+              </a>
+              <div class="desc">Trufas</div>
+            </div>
+            <div class="gallery">
+              <a href="images/brigadeiro.jpg">
+                <img src="images/brigadeiro.jpg" alt="Trolltunga Norway" width="300" height="200">
+              </a>
+              <div class="desc">Brigadeiros</div>
+            </div>
+            <div class="gallery">
+              <a href="images/bolo.jpg">
+                <img src="images/bolo.jpg" alt="Trolltunga Norway" width="300" height="200">
+              </a>
+              <div class="desc">Bolo no pote</div>
+            </div>
+          </div>
+        </div>           
       </main>
-
-      <footer id="footer">Copyright (c) 2016 Kaká Doces® All Rights Reserved.
-      <p>Developed By Marcos Ferreira</p></footer>
-    </div>
+      <div class="all-informations">
+        <div class="kd-submenus">
+          <span>MENU</span> 
+          <a href="index.html">Inicío</a>
+          <a href="#">Sobre nós</a>
+          <a href="#">Cardápios e sabores</a>
+          <a href="#">Valores/Orçamentos</a>
+          <a href="#">Como encomendar?</a>
+        </div>
+        <div class="kd-social-network">
+          <span>FIQUE CONECTADO</span>
+          <div class="networks">
+            <p>
+              <img src="images/face.png" width="30px">
+              <a href="www.facebook.com/kakaDoces" target="_blank">Facebook</a>              
+            </p>
+          </div>
+          <div class="networks">
+            <p>
+              <img src="images/insta.jpg" width="30px">
+              <a href="www.facebook.com/kakaDoces" target="_blank">Instagram</a>              
+            </p>
+          </div>          
+          
+        </div>
+        <div class="kd-sublogo">
+          <span>INFORMAÇÕES DE CONTATO</span>
+          <p>
+            <img src="images/home.png" width="20px">
+            <span>Kaká Doces - Adoce sua vida
+            Endereço: QR 403 - Samambaia Norte</span>
+          </p>
+          <p>
+            <img src="images/phone.png" width="20px">
+            <span>(061) - 3013-0636</span>
+            <span>(061) - 98615-1086</span>
+          </p>
+          <p>
+            <img src="images/mail.png" width="20px">
+            <span>E-mail: carla.ferreiracfp@gmail.com</span>
+          </p>
+                   
+        </div>
+        <!---->         
+      </div>
+      <footer>        
+        <label class="kd-all-rights">&copy;2017 Kaká Doces&reg; All Rights Reserved | Developed by MPFSTecnologic</label>
+         <!--<img class="img-footer" src="images/img_top_menu.png" alt="Kaká Doces" width="80px;"/>--> 
+      </footer>
   </body>
 </html>
